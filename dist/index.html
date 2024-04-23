@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Base</title>
+</head>
+<body>
+    <h1>Add Movies</h1>
+    <form style="margin: auto; display: block; text-align: center;" class="add">
+        <input type="text" placeholder="Name" autocomplete="off" name="name"/><br/><hr />
+        <input type="text" placeholder="Description" autocomplete="off" name="description"/><br /><hr />
+        <select name="category">
+            <option value="Drama">Drama</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+        </select><br /><hr />
+        <input type="submit" value="Add Movie"/>
+    </form>
+
+    <h1>Delete Movies</h1>
+    <form style="margin: auto; display: block; text-align: center;" class="delete">
+        <input type="text" placeholder="Id" autocomplete="off" name="id"/><br /><hr />
+        <input type="submit" value="Delete Movie"/>
+    </form>
+
+    <h1>Update Movies</h1>
+    <form style="margin: auto; display: block; text-align: center;" class="update">
+        <input type="text" placeholder="Id" autocomplete="off" name="id"/><br /><hr />
+        <input type="text" placeholder="Name" autocomplete="off" name="name"/><br/><hr />
+        <input type="text" placeholder="Description" autocomplete="off" name="description"/><br /><hr />
+        <select name="category">
+            <option value="Drama">Drama</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+        </select><br /><hr />
+        <input type="submit" value="Update Movie"/>
+    </form>
+
+    <h1>Register</h1>
+    <form class="register" style="margin: auto; display: block; text-align: center;">
+        <input type="email" placeholder="Email" name="email" autocomplete="off" /><br /><hr />
+        <input type="password" placeholder="password" name="password" autocomplete="off" /><br /><hr />
+        <input type="submit" value="Register">
+    </form>
+
+    <h1>Login</h1>
+    <form class="login" style="margin: auto; display: block; text-align: center;">
+        <input type="email" placeholder="Email" name="email" autocomplete="off" /><br /><hr />
+        <input type="password" placeholder="Password" name="password" autocomplete="off" /><br /><hr />
+        <input type="submit" value="Login">
+    </form>
+
+    <h1>LogOut</h1>
+    <button class="logout"style="margin: auto; display: block; text-align: center;">Logout</button>
+    <script src="bundle.js"></script>
+</body>
+</html>
